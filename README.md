@@ -1,6 +1,6 @@
 # DNA_MUTATIONS_AWS
-aws rest api 
-El proyecto fue desarrollado utilizando lo siguiente:
+aws rest api el proyecto fue desarrollado utilizando lo siguiente:
+
  - Netbeans 8.2
  - Java 8
  - SpringBoot 2.1.3.RELEASE
