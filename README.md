@@ -44,3 +44,6 @@ GET → /stats/
  
 Se puede probar en postman utilizando el siguiente boton: [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/5ec3c0ae28ed10d4e51e)
  
+ ## Load testing
+ - 1000 peticiones
+ <img width="960" alt="1000" src="https://user-images.githubusercontent.com/8495787/53713013-d70e1780-3e0e-11e9-9d33-015e619397e1.PNG">
