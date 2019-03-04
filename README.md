@@ -23,6 +23,8 @@ aws rest api el proyecto fue desarrollado utilizando lo siguiente:
 
 - code coverage actual: 85%
 
+<img width="870" alt="code coverage" src="https://user-images.githubusercontent.com/8495787/53712244-abd5f900-3e0b-11e9-8c6c-5a17769c8b12.PNG">
+
 ## Endpoints:
 
  - URL: http://DnaMutations-env.pkzir4m2un.us-east-2.elastic/mutation
