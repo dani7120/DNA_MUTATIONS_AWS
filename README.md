@@ -1,7 +1,7 @@
 # DNA_MUTATIONS_AWS
-aws rest api el proyecto fue desarrollado utilizando lo siguiente:
+aws rest api el proyecto fue desarrollado bajo el siguiente environment:
 
- - Netbeans 8.2
+ - IDE: Netbeans 8.2
  - Java 8
  - SpringBoot 2.1.3.RELEASE
  - Jacoco 0.8.2
