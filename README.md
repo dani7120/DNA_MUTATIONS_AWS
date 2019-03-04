@@ -7,14 +7,14 @@ aws rest api el proyecto fue desarrollado utilizando lo siguiente:
  - Jacoco 0.8.2
  - Hibernate 5
  
-# Instrucciones:
+## Instrucciones:
 
 1. Descargar el codigo y ejecutar con maven las siguientes instrucciones
   - mvn clean install
   - mvn package  
   - java -jar mutations-0.0.1-SNAPSHOT.jar (target)
 
-# Code coverage
+## Code coverage
 
 1. Abrir una terminal y posicionarse  en la misma ruta en la que se encuentra el pom.xml del proyecto
 2. ejecutar la siguiente instruccion:
@@ -23,9 +23,8 @@ aws rest api el proyecto fue desarrollado utilizando lo siguiente:
 
 - code coverage actual: 85%
 
-# Aplicacion deployada en aws.
+## Endpoints:
 
-Endpoints:
  - URL: http://DnaMutations-env.pkzir4m2un.us-east-2.elastic/mutation
 
 POST → /mutation/
@@ -40,4 +39,6 @@ GET → /stats/
  
  Devolvera un JSON con las estadísticas de las verificaciones de ADN en el siguiente formato:
    {“count_mutations”:40, “count_no_mutation”: 100 : “ratio”:0.4}
+ 
+Se puede probar en postman utilizando el siguiente boton: [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/5ec3c0ae28ed10d4e51e)
  
