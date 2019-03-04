@@ -7,6 +7,7 @@ aws rest api el proyecto fue desarrollado bajo el siguiente environment:
  - Jacoco 0.8.2
  - Hibernate 5
  - JMeter 5.1
+ - Maven 3.5.4
  
 ## Instrucciones:
 
