@@ -18,9 +18,9 @@ pipeline {
             sh 'mvn clean'
           }
         }
-        stage('Maven-install') {
+        stage('Jacoco report') {
           steps {
-            sh 'mvn install'
+            sh 'mvn jacoco:report'
           }
         }
       }
