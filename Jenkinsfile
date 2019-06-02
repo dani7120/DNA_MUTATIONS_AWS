@@ -18,16 +18,16 @@ pipeline {
             sh 'mvn clean'
           }
         }
-        stage('Jacoco report') {
-          steps {
-            sh 'mvn jacoco:report'
-          }
-        }
         stage('Maven-install') {
           steps {
             sh 'mvn -B -DskipTests install package'
           }
         }
+      }
+    }
+    stage('Test') {
+      steps {
+        sh 'mvn test'
       }
     }
   }
