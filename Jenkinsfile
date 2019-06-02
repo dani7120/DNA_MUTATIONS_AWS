@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Clone') {
       steps {
-        echo 'Pipeline builded'
+        echo 'Git clone'
       }
     }
   }
