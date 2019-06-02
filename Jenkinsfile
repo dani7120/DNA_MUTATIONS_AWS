@@ -26,8 +26,18 @@ pipeline {
       }
     }
     stage('Test') {
-      steps {
-        sh 'mvn test'
+      parallel {
+        stage('Test') {
+          steps {
+            sh 'mvn test'
+          }
+        }
+        stage('jacoc') {
+          steps {
+            jacoco()
+            jacoco(buildOverBuild: true, changeBuildStatus: true)
+          }
+        }
       }
     }
   }
