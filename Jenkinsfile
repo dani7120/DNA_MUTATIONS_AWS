@@ -23,6 +23,11 @@ pipeline {
             sh 'mvn jacoco:report'
           }
         }
+        stage('Maven-install') {
+          steps {
+            sh 'mvn -B -DskipTests install package'
+          }
+        }
       }
     }
   }
